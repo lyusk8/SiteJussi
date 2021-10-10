@@ -1,0 +1,12 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+
+#root {
+  margin-top: 0;
+  background-color: white;
+  width: 1440px;
+  margin: auto;
+}
