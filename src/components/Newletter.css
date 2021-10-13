@@ -1,0 +1,64 @@
+#newletter {
+  width: 1440px;
+  height: 436px;
+  background-color: #000000;
+  position: relative;
+}
+
+#newsletter {
+  width: 676px;
+  height: 80px;
+  position: absolute;
+  top: 100px;
+  left: 382px;
+}
+
+#newsletter p {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#titleNewsletter {
+  border-bottom: 1px solid #03ffa5;
+  width: 502px;
+  height: 60px;
+  position: absolute;
+  top: 240px;
+  left: 469px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#cadastrar {
+  padding: 0px;
+  background: none;
+  border: none;
+}
+
+#cadastrar p {
+  color: #03ffa5;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+#titleNewsletter input::placeholder {
+  color: #ffffff;
+}
+
+#input {
+  color: #ffffff;
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+}

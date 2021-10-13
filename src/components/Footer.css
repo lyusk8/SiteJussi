@@ -1,0 +1,46 @@
+#footer {
+  position: relative;
+  width: 1440px;
+  height: 80px;
+  background-color: #000000;
+}
+
+#company {
+  width: 142px;
+  height: 27px;
+}
+
+#social {
+  position: absolute;
+  top: 24px;
+  right: 208px;
+  width: 130px;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#faceb {
+  width: 32px;
+  height: 32px;
+  background-image: url('../views/img/logoface.png');
+  background-repeat: no-repeat;
+  background-size: 32px;
+}
+
+#insta {
+  width: 32px;
+  height: 32px;
+  background-image: url('../views/img/logoinsta.png');
+  background-repeat: no-repeat;
+  background-size: 32px;
+}
+
+#in {
+  width: 32px;
+  height: 32px;
+  background-image: url('../views/img/logoin.png');
+  background-repeat: no-repeat;
+  background-size: 32px;
+}

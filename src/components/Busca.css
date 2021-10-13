@@ -1,15 +1,38 @@
 .busca {
+  background-size: 24px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-right: 24px;
 }
 
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 240px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+#lupa {
+  width: 24px;
+  height: 24px;
+  background-image: url('../views/img/lupa.png');
+  background-repeat: no-repeat;
+  background-size: 24px;
+}
+
 .interno {
-  border: 0.5px solid black;
-  border-radius: 25px;
-  padding: 8px;
-  margin-right: 30px;
+  border: none;
+}
+
+input::placeholder {
+  color: #ee0e7d;
 }
 
 .login {
@@ -17,14 +40,9 @@
 }
 
 .carrinho {
-  margin-right: 30px;
   width: 24px;
   height: 24px;
-  background-image: url('../views/image/carrinho-mini.png');
-}
-
-.icon {
-  background-image: url('../views/image/lupa-mini.png');
+  background-image: url('../views/img/carrinho.png');
   background-repeat: no-repeat;
-  background-position: 2px 3px;
+  background-size: 24px;
 }

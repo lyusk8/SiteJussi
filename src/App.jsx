@@ -1,12 +1,25 @@
 import React from 'react';
-import Menu from './components/Menu';
+import NavBar from './components/NavBar';
 import HeroBanner from './components/HeroBanner';
+import LogoBar from './components/LogoBar';
+import ContactInfo from './components/ContactInfo';
+import Footer from './components/Footer';
+import OurSolutions from './components/OurSolutions';
+import JussiSession from './components/JussiSession';
+import Newletter from './components/Newletter';
 
-export default (props) => {
+const App = (props) => {
   return (
     <div>
-      <Menu />
+      <NavBar />
       <HeroBanner />
+      <LogoBar />
+      <OurSolutions />
+      <JussiSession />
+      <ContactInfo />
+      <Newletter />
+      <Footer />
     </div>
   );
 };
+export default App;

@@ -1,0 +1,43 @@
+#ctoInfo {
+  width: 1440px;
+  height: 480px;
+  background-color: #ee0e7d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#titleText {
+  width: 750px;
+  height: 208px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#exemplo {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+#chamada {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#email {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  color: #ffffff;
+}

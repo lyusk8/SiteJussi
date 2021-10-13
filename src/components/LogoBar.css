@@ -1,0 +1,41 @@
+#logoBar {
+  position: relative;
+  width: 1440px;
+  height: 80px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#texto-logo {
+  width: 1014.37px;
+  height: 35.35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tres {
+  width: 160px;
+  height: 25.59px;
+  background-image: url('../views/img/AF_LOGO_BRASTEMP_laranja-01.png');
+  background-size: 160px;
+}
+#quatro {
+  width: 210px;
+  height: 21.6px;
+  background-image: url('../views/img/compra-certamini.png');
+  background-size: 180px;
+}
+#cinco {
+  width: 87.99px;
+  height: 40px;
+  background-image: url('../views/img/Consul-logo.png');
+  background-size: 87.99px;
+}
+#seis {
+  width: 129.38px;
+  height: 38px;
+  background-image: url('../views/img/logo-thebar\ \(1\).png');
+  background-size: 129.38px;
+}

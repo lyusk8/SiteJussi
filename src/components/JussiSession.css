@@ -1,0 +1,64 @@
+#session {
+  position: relative;
+  width: 1440px;
+  height: 648px;
+}
+
+#quadrado {
+  width: 720px;
+  height: 648px;
+  background-color: #f2f2f2;
+  position: absolute;
+  right: 0px;
+}
+
+#imagemJüssi {
+  position: absolute;
+  width: 676px;
+  height: 520px;
+  right: 208px;
+  top: 64px;
+  background-image: url('../views/img/Jussi.png');
+  background-repeat: no-repeat;
+  background-size: 676px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+#title-text {
+  width: 241px;
+  height: 468px;
+  position: absolute;
+  bottom: 116px;
+  left: 208px;
+}
+
+#textTitle {
+  text-align: justify;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+#textSession {
+  text-align: justify;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#buttonSession {
+  background: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  width: 162px;
+  height: 48px;
+  padding: 12px 24px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
