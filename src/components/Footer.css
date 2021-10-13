@@ -8,6 +8,12 @@
 #company {
   width: 142px;
   height: 27px;
+  background-image: url('../views/img/73c7edab98c1b669e471cbdb4ea723a1.png');
+  background-repeat: no-repeat;
+  background-size: 142px;
+  position: absolute;
+  top: 27px;
+  left: 208px;
 }
 
 #social {
@@ -17,14 +23,17 @@
   width: 130px;
   height: 32px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  padding: 0px;
 }
 
 #faceb {
   width: 32px;
   height: 32px;
-  background-image: url('../views/img/logoface.png');
+  margin-right: -30px;
+  background-image: url('../views/img/facebook.png');
   background-repeat: no-repeat;
   background-size: 32px;
 }
@@ -32,7 +41,8 @@
 #insta {
   width: 32px;
   height: 32px;
-  background-image: url('../views/img/logoinsta.png');
+  margin-right: 13px;
+  background-image: url('../views/img/instagram.png');
   background-repeat: no-repeat;
   background-size: 32px;
 }
@@ -40,7 +50,8 @@
 #in {
   width: 32px;
   height: 32px;
-  background-image: url('../views/img/logoin.png');
+
+  background-image: url('../views/img/linkedin\ .png');
   background-repeat: no-repeat;
   background-size: 32px;
 }

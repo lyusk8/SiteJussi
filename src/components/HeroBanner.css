@@ -73,6 +73,8 @@
 }
 
 #img1 {
+  position: absolute;
+  top: 13px;
   width: 183.64px;
   height: 190px;
   background-image: url('../views/img/geladeira.png');
@@ -80,6 +82,8 @@
 }
 
 #img2 {
+  position: absolute;
+  top: 39px;
   width: 128.64px;
   height: 134px;
   background-image: url('../views/img/batedeira.png');
@@ -87,6 +91,8 @@
 }
 
 #img3 {
+  position: absolute;
+  top: 17.05px;
   width: 170.95px;
   height: 165px;
   background-image: url('../views/img/whisky.png');
