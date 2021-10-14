@@ -1,7 +1,11 @@
-#button {
+.button {
+  width: 162px;
+  height: 48px;
+  background: none;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   border: 1px solid;
   border-radius: 6px;
   padding: 12px 24px;
@@ -12,10 +16,4 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  background: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 24px;
-  position: absolute;
 }

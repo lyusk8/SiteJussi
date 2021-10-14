@@ -64,13 +64,7 @@
 
 #buttonBox {
   background-color: #03ffa5;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 24px;
   width: 209px;
   height: 48px;
-  border-radius: 6px;
   border: none;
 }

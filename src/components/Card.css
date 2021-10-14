@@ -13,8 +13,8 @@
 }
 
 #buttonCard {
-  font-family: 'Barlow' sans-serif;
-  background-color: #ffffff;
+  background: none;
+  padding: 0px 24px;
   border: 1px solid #ee0e7d;
   border-radius: 24px;
   position: absolute;

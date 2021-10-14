@@ -1,6 +1,10 @@
 import './NavBar.css';
-import React from 'react';
+import React, { useState } from 'react';
 import Busca from './Busca';
+import OurSolutions from './OurSolutions';
+import JussiSession from './JussiSession';
+import { Switch, Route, Link } from 'react-router-dom';
+import axios from 'axios';
 
 const NavBar = (props) => {
   return (
@@ -12,19 +16,27 @@ const NavBar = (props) => {
           </a>
         </div>
         <nav id="nav-bar">
-          <a href="#">
+          <Link to="/OurSolutions">
             <div className="link">
               <p>Nossas soluções </p>
             </div>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/JussiSession">
             <div className="link">
               <p> Conheça a Jüssi</p>
             </div>
-          </a>
+          </Link>
         </nav>
       </div>
       <Busca />
+      <Switch>
+        <Route path="/OurSolutions" component={OurSolutions}>
+          <OurSolutions />
+        </Route>
+        <Route path="/JussiSession" component={JussiSession}>
+          <JussiSession />
+        </Route>
+      </Switch>
     </header>
   );
 };

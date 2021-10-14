@@ -5,10 +5,12 @@ const Busca = (props) => {
   return (
     <div className="busca">
       <div id="search">
-        <input className="interno" type="text" placeholder="Busca" />
-        <div id="lupa"></div>
+        <input className="interno" type="search" placeholder="Busca" />
+        <a href="">
+          <div id="lupa"></div>
+        </a>
       </div>
-      <span className="login">Login</span>
+      <p className="login">Login</p>
       <div className="carrinho"></div>
     </div>
   );

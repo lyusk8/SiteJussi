@@ -28,11 +28,6 @@
 }
 
 #buttonBanner {
-  background: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 24px;
   position: absolute;
   width: 196px;
   height: 48px;
@@ -40,7 +35,6 @@
   top: 431px;
   border: 1px solid #000000;
   box-sizing: border-box;
-  border-radius: 6px;
 }
 
 #cards {
