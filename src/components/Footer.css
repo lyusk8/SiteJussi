@@ -26,7 +26,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
+  padding: 0;
 }
 
 #faceb {
@@ -51,7 +51,7 @@
   width: 32px;
   height: 32px;
 
-  background-image: url('../views/img/linkedin\ .png');
+  background-image: url('../views/img/linkedin.png');
   background-repeat: no-repeat;
   background-size: 32px;
 }

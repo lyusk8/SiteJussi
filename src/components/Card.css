@@ -9,12 +9,12 @@
   width: 209px;
   height: 271px;
   background-color: #ffffff;
-  box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 32px 32px rgba(0, 0, 0, 0.25);
 }
 
 #buttonCard {
   background: none;
-  padding: 0px 24px;
+  padding: 0 24px;
   border: 1px solid #ee0e7d;
   border-radius: 24px;
   position: absolute;

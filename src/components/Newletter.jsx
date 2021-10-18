@@ -1,7 +1,7 @@
 import './Newletter.css';
 import React from 'react';
 
-const Newletter = (props) => {
+const Newletter = () => {
   return (
     <section id="newletter">
       <div id="newsletter">

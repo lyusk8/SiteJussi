@@ -1,7 +1,7 @@
 import './ContactInfo.css';
 import React from 'react';
 
-const ContactInfo = (props) => {
+const ContactInfo = () => {
   return (
     <section id="ctoInfo">
       <div id="titleText">

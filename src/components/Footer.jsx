@@ -1,14 +1,14 @@
 import './Footer.css';
 import React from 'react';
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <footer id="footer">
-      <div id="company"></div>
-      <div id="social">
-        <dir id="faceb"></dir>
-        <div id="insta"></div>
-        <div id="in"></div>
+      <div id="company"/>
+        <div id="social">
+        <dir id="faceb"/>
+        <div id="insta"/>
+        <div id="in"/>
       </div>
     </footer>
   );

@@ -1,27 +1,21 @@
 import './NavBar.css';
-import React, { useState } from 'react';
 import Busca from './Busca';
-import OurSolutions from './OurSolutions';
-import JussiSession from './JussiSession';
-import { Switch, Route, Link } from 'react-router-dom';
-import axios from 'axios';
+import { Link } from 'react-router-dom';
 
-const NavBar = (props) => {
+const NavBar = () => {
   return (
     <header id="cabecalho">
       <div className="menu">
-        <div className="logo">
-          <a href="#">
-            <div className="jussi"></div>
-          </a>
-        </div>
+        <Link to="/home">
+          <div className="logo" />
+        </Link>
         <nav id="nav-bar">
-          <Link to="/OurSolutions">
+          <Link to="/solutions">
             <div className="link">
               <p>Nossas soluções </p>
             </div>
           </Link>
-          <Link to="/JussiSession">
+          <Link to="/jussi">
             <div className="link">
               <p> Conheça a Jüssi</p>
             </div>
@@ -29,14 +23,6 @@ const NavBar = (props) => {
         </nav>
       </div>
       <Busca />
-      <Switch>
-        <Route path="/OurSolutions" component={OurSolutions}>
-          <OurSolutions />
-        </Route>
-        <Route path="/JussiSession" component={JussiSession}>
-          <JussiSession />
-        </Route>
-      </Switch>
     </header>
   );
 };

@@ -1,27 +1,17 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import HeroBanner from '../components/HeroBanner';
-import LogoBar from '../components/LogoBar';
-import ContactInfo from '../components/ContactInfo';
 import Footer from '../components/Footer';
-import OurSolutions from '../components/OurSolutions';
-import JussiSession from '../components/JussiSession';
-import Newletter from '../components/Newletter';
+import Content from '../components/Content';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const App = (props) => {
+const App = () => {
   return (
-    <div>
+    <div id="">
       <Router>
         <NavBar />
-        <HeroBanner />
-        <LogoBar />
-        <OurSolutions />
-        <JussiSession />
-        <ContactInfo />
-        <Newletter />
-        <Footer />
+        <Content />
       </Router>
+      <Footer />
     </div>
   );
 };

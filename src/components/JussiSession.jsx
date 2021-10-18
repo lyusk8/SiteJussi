@@ -2,7 +2,7 @@ import './JussiSession.css';
 import React from 'react';
 import Button from './Button';
 
-const JussiSession = (props) => {
+const JussiSession = () => {
   return (
     <section id="session">
       <div id="title-text">
@@ -18,8 +18,8 @@ const JussiSession = (props) => {
         </p>
         <Button id="buttonSession" texto="Conheça a Jüssi" />
       </div>
-      <div id="imagemJüssi"></div>
-      <div id="quadrado"></div>
+      <div id="imagemJüssi"/>
+      <div id="quadrado"/>
     </section>
   );
 };

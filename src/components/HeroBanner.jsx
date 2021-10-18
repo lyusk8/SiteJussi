@@ -3,7 +3,7 @@ import React from 'react';
 import Card from './Card';
 import Button from './Button';
 
-const HeroBanner = (props) => {
+const HeroBanner = () => {
   return (
     <main id="banner">
       <p id="titulo">

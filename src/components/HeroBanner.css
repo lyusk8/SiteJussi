@@ -17,7 +17,7 @@
 }
 
 #text {
-  font-family: 'Barlow' sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -48,21 +48,21 @@
 #card1 {
   position: absolute;
   top: 156.43px;
-  left: 0px;
+  left: 0;
   z-index: 0;
 }
 
 #card2 {
   position: absolute;
   left: 129.49px;
-  top: 0px;
+  top: 0;
   z-index: 2;
 }
 
 #card3 {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   z-index: 1;
 }
 

@@ -9,11 +9,13 @@ const Box = (props) => {
       <div id="conteudo">
         <p id="nome">{props.nome}</p>
         <p id="descricao">{props.descricao}</p>
-        <ul id="tabela">
-          <li> Feature 1</li>
-          <li> Feature 2</li>
-          <li> Feature 3</li>
-        </ul>
+        <div id="features">
+            <ul id="tabela">
+                <li> Feature 1</li>
+                <li> Feature 2</li>
+                <li> Feature 3</li>
+            </ul>
+        </div>
         <Button id="buttonBox" texto="Ver solução" />
       </div>
     </div>

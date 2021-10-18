@@ -1,7 +1,7 @@
 import './LogoBar.css';
 import React from 'react';
 
-const LogoBar = (props) => {
+const LogoBar = () => {
   return (
     <div id="logoBar">
       <div id="texto-logo">
@@ -11,10 +11,10 @@ const LogoBar = (props) => {
         <div id="dois" className="marcas">
           →
         </div>
-        <div id="tres" className="marcas"></div>
-        <div id="quatro" className="marcas"></div>
-        <div id="cinco" className="marcas"></div>
-        <div id="seis" className="marcas"></div>
+        <div id="tres" className="marcas"/>
+        <div id="quatro" className="marcas"/>
+        <div id="cinco" className="marcas"/>
+        <div id="seis" className="marcas"/>
       </div>
     </div>
   );

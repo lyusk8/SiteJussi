@@ -2,7 +2,7 @@ import './OurSolutions.css';
 import React from 'react';
 import Box from './Box';
 
-const OurSolutions = (props) => {
+const OurSolutions = () => {
   return (
     <section id="section">
       <div id="titleSolution">

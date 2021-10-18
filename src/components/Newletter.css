@@ -24,7 +24,7 @@
 }
 
 #titleNewsletter {
-  border-bottom: 1px solid #03ffa5;
+  border: none;
   width: 502px;
   height: 60px;
   position: absolute;
@@ -35,12 +35,15 @@
 }
 
 #cadastrar {
-  padding: 0px;
+  padding: 0;
   background: none;
   border: none;
 }
 
 #cadastrar p {
+  position: absolute;
+  right: 0;
+  top: -4px;
   color: #03ffa5;
   font-size: 15px;
   font-weight: 700;
@@ -54,9 +57,12 @@
 }
 
 #input {
+  width: 502px;
+  height: 60px;
   color: #ffffff;
   background: none;
   border: none;
+  border-bottom: 1px solid #03ffa5;
   font-size: 15px;
   font-weight: 500;
   font-style: normal;
